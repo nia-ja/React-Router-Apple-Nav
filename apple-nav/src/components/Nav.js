@@ -3,9 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Nav = props => {
     return (
-        <NavLink activeClassName='nav-item-active'>
-            <div className='nav-item'>{props.data.title}</div>
-        </NavLink>
+            <div className='nav-item'><NavLink to='' activeClassName='nav-item-active'>{props.data.title}</NavLink></div>
     )
 }
 

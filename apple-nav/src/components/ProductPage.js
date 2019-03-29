@@ -12,7 +12,7 @@ const ProductPage = props => {
             <SubNavWrapper product={product.subheader} />
             <div className="random-page">
                 <h1>It's a <span>{product.title}</span> page</h1>
-                <img src="https://images.pexels.com/photos/205316/pexels-photo-205316.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt='random ilustration' />
+                <img src={product.img} alt='random ilustration' />
             </div>
         </div>
     )

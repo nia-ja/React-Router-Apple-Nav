@@ -21,10 +21,13 @@ code {
   align-items: center;
   justify-content: flex-start;
 }
-.apple-logo {
-  width: 1.6%;
+.nav-wrapper > a {
   margin-left: 10.7%;
-  margin-right: 6%;
+  margin-right: 3.3%;
+}
+.nav-wrapper > a > .apple-logo {
+  width: 37%;
+  cursor: pointer;
 }
 .nav-items {
   width: 56.5%;
@@ -47,6 +50,7 @@ code {
 
 .search-icon, .bag-icon {
     width: 1.6%;
+    cursor: pointer;
 }
 .search-icon {
   margin-left: 5.5%;

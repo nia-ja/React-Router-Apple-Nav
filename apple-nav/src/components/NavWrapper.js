@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Nav from './Nav';
 
@@ -9,7 +10,7 @@ import ShopingBagIcon from '../img/shopping_bag_icon.svg';
 const NavWrapper = props => {
     return (
         <div className='nav-wrapper'>
-            <img className='apple-logo' src={AppleLogo} alt='white apple logo' />
+            <Link to='/'><img className='apple-logo' src={AppleLogo} alt='white apple logo' /></Link>
             <div className='nav-items'>
                 {
                     props.data.length > 0 ? (

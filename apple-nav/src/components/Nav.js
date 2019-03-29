@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Nav = props => {
     return (
-            <div className='nav-item'><NavLink to='' activeClassName='nav-item-active'>{props.data.title}</NavLink></div>
+            <div className='nav-item'><NavLink to={`/${props.data.title.toLowerCase()}`} activeClassName='nav-item-active'>{props.data.title}</NavLink></div>
     )
 }
 

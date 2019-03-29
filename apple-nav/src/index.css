@@ -93,8 +93,11 @@ code {
 }
 .sub-nav-item {
   font-size: 11px;
-  width: 8%;
+  width: 9%;
   text-align: center;
+}
+.sub-nav-item-icon {
+  width: 50%;
 }
 
 .random-page {

@@ -56,3 +56,31 @@ code {
   margin-left: 5.5%;
   margin-right: 6%;
 }
+
+.sub-nav-wrapper {
+  background: rgb(250,250,250);
+  width: 100%;
+  padding: 20px 0;
+}
+.sub-nav-items {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20%;
+}
+.sub-nav-item {
+  font-size: 11px;
+}
+
+.random-page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.random-page img {
+  width: 60%;
+}
+.random-page h1 span {
+  color: red;
+}

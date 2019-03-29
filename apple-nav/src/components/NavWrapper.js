@@ -12,20 +12,7 @@ const NavWrapper = props => {
         <div className='nav-wrapper'>
             <Link to='/'><img className='apple-logo' src={AppleLogo} alt='white apple logo' /></Link>
             <div className='nav-items'>
-                {
-                    props.data.length > 0 ? (
-                        props.data.map(elem => (<Nav data={elem} key={elem.id} />))
-                    ) : (
-                        // Spinner
-                        <div className="semipolar-spinner">
-                        <div className="ring"></div>
-                        <div className="ring"></div>
-                        <div className="ring"></div>
-                        <div className="ring"></div>
-                        <div className="ring"></div>
-                        </div>
-                    )
-                }
+                {props.data.map(elem => (<Nav data={elem} key={elem.id} />))}
             </div>
             <img className='search-icon' src={SearchIcon} alt='white magnifier, search' />
             <img className='bag-icon' src={ShopingBagIcon} alt='' />

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="52" height="52"
+viewBox="0 0 192 192"
+style=" fill:#000000;">
+    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+        <path d="M0,192v-192h192v192z" fill-opacity="0.98" fill="#2d2d2d"></path>
+        <g fill="#ffffff">
+            <g id="surface1">
+                <path d="M96,3.84c-21.255,0 -38.4,17.145 -38.4,38.4v7.68h-30.36l-0.36,3.36l-15.36,134.4l-0.48,4.32h169.92l-0.48,-4.32l-15.36,-134.4l-0.36,-3.36h-30.36v-7.68c0,-21.255 -17.145,-38.4 -38.4,-38.4zM96,11.52c17.145,0 30.72,13.575 30.72,30.72v7.68h-61.44v-7.68c0,-17.145 13.575,-30.72 30.72,-30.72zM34.2,57.6h23.4v8.76c-2.295,1.335 -3.84,3.765 -3.84,6.6c0,4.245 3.435,7.68 7.68,7.68c4.245,0 7.68,-3.435 7.68,-7.68c0,-2.835 -1.545,-5.265 -3.84,-6.6v-8.76h61.44v8.76c-2.295,1.335 -3.84,3.765 -3.84,6.6c0,4.245 3.435,7.68 7.68,7.68c4.245,0 7.68,-3.435 7.68,-7.68c0,-2.835 -1.545,-5.265 -3.84,-6.6v-8.76h23.4l14.52,126.72h-152.64z"></path>
+            </g>
+        </g>
+    </g>
+</svg>
